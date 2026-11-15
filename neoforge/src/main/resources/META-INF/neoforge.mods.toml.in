@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+    modId="tnt_ring"
+    version="1.2.0"
+    displayName="TNT Ring"
+    authors="andrewsuryanto"
+    description='''Light a TNT and a ring of 100 lit TNT appears around it. They all go off together at 4x normal TNT power. Server-side only - players don't need the mod.'''
+    displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.tnt_ring]]
+    modId="neoforge"
+    type="required"
+    versionRange="[@NEO@,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tnt_ring]]
+    modId="minecraft"
+    type="required"
+    versionRange="[@MC@,@MCNEXT@)"
+    ordering="NONE"
+    side="BOTH"

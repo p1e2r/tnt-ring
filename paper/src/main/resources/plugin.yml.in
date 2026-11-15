@@ -1,0 +1,6 @@
+name: TNTRing
+version: 1.2.0
+main: com.tntring.paper.TntRingPaper
+api-version: '@MC@'
+authors: [andrewsuryanto]
+description: Light a TNT and a ring of 100 lit TNT appears around it. They all go off together at 4x normal TNT power.
